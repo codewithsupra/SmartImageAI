@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+/* Base text styles */
+.text-base {
+  font-family: 'Poppins', sans-serif;
+  color: #fff; /* Adjust if needed based on your background */
+  text-align: center;
+}
+
+/* Specific text styles */
+.rank-message {
+  font-size: 1.25rem; /* f3 equivalent, adjust as needed */
+  font-weight: 400; /* Normal weight */
+}
+
+.rank-number {
+  font-size: 2.5rem; /* f1 equivalent, larger for emphasis */
+  font-weight: 800; /* Extra bold for impact */
+  margin: 20px 0; /* Adds spacing around the rank number */
+}
+
+/* Example of adding a subtle text shadow for better readability */
+.text-shadow {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
