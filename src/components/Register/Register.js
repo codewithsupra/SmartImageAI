@@ -48,7 +48,7 @@ class Register extends React.Component {
       return; // Stop the onSubmit if the validation fails
     }
 
-    fetch('http://localhost:3001/register', {
+    fetch('https://smartimageaibackend-2.onrender.com/register', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
