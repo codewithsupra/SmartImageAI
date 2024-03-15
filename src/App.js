@@ -104,7 +104,7 @@ class App extends Component {
             isLoading: false
           });
   
-          fetch('https://smartimageaibackend-2.onrender.com/image', {
+          fetch('https://smartimageaibackend.onrender.com/image', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
