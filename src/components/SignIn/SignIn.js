@@ -28,7 +28,7 @@ class SignIn extends React.Component {
       return;
     }
 
-    fetch('https://smartimageaibackend-2.onrender.com/signin', {
+    fetch('https://smartimageai.onrender.com/signin', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
