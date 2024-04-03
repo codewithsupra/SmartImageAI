@@ -59,7 +59,7 @@ class SignIn extends React.Component {
         <main className="pa4 black-80">
           <div className="measure">
             <fieldset id="sign_up" className="ba b--transparent ph0 mh0">
-              <legend className="f1 tc fw6 ph0 mh0">Face-Detection</legend>
+              <legend className="f1 tc fw6 ph0 mh0">Smart Image Generator </legend>
               <div className="mt3">
                 <label className="db fw6 tc lh-copy f6" htmlFor="email-address">Email</label>
                 <input 
